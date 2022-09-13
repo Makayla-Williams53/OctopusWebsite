@@ -1,11 +1,68 @@
-html, body {
-  height: 100%;
-  width: 100%;
+html
+{
+  background-color: #4A4A4A;
+}
+
+body {
   background-color:#6B7D7D;
+  height: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 h1
 {
   color:black;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h2
+{
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+nav
+{
+  background-color: #A6D8D4;
+  text-align: center;
+}
+
+nav ul
+{
+  margin: 0; 
+  padding: 0;
+  overflow:hidden;
+}
+
+nav ul li
+{
+  display: inline-block;
+}
+
+nav ul li a
+{
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  font-size: 20;
+  padding: 20px;
+}
+
+nav ul li a:link
+{
+  color: black;
+}
+
+nav a:hover
+{
+  background-color: #FFFF00;
+  font-weight: bold;
+}
+
+nav a:active
+{
+  background-color: #8EAF9D;
 }
