@@ -227,3 +227,20 @@ dd
   font-family: 'Roboto', sans-serif;
   line-height: 1.8;
 }
+
+.date
+{
+  text-align: right;
+  padding: 20px 30px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.toIntro
+{
+  text-align: left;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+}
