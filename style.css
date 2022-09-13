@@ -211,3 +211,10 @@ dd
   text-indent: 30px;
   font-family: 'Roboto', sans-serif;
 }
+
+.cocoPdf
+{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
