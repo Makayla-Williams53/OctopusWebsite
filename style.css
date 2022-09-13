@@ -244,3 +244,24 @@ dd
   font-family: 'Roboto', sans-serif;
   line-height: 1.8;
 }
+
+.paragraphOne
+{
+  text-align:left;
+  padding: 0px 30px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+  text-indent: 50px;
+}
+
+.paragraphTwo
+{
+  text-align:left;
+  padding: 0px 30px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+  text-indent: 50px;
+}
