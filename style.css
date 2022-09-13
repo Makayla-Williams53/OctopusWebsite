@@ -265,3 +265,23 @@ dd
   line-height: 2;
   text-indent: 50px;
 }
+
+.close
+{
+  text-align: left;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+}
+
+.signImg
+{
+  height: 75px;
+}
+  
+.signature
+{
+  display:flex;
+  align-items: center;
+}
