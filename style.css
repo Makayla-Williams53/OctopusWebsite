@@ -219,6 +219,11 @@ dd
   margin-right: auto;
 }
 
+.letter
+{
+  background-color: #B9CDDA;
+}
+
 .intro
 {
   text-align: right;
