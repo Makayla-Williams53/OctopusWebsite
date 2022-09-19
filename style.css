@@ -221,6 +221,17 @@ dd
   margin-right: auto;
 }
 
+.mayaPage
+{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  box-shadow: 8px 8px 8px black;
+  border-style: solid;
+  border-width: 3px;  
+}
+
 .letter
 {
   background-color: #B9CDDA;

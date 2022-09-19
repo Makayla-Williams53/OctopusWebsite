@@ -50,44 +50,44 @@
     <strong>3) What color is the coconut octopus?</strong>
     <br>
     <label>
-      <input name="question2" type="radio" value="brown">Brown
+      <input name="question3" type="radio" value="brown">Brown
     </label>
     
     <br>
     <label>
-      <input name="question2" type="radio" value="orange">Orange
+      <input name="question3" type="radio" value="orange">Orange
     </label>
     
     <br>
     <label>
-      <input name="question2" type="radio" value="pink">Pink
+      <input name="question3" type="radio" value="pink">Pink
     </label>
     
     <br>
     <label>
-      <input name="question2" type="radio" value="red">Red
+      <input name="question3" type="radio" value="red">Red
     </label>
     <br>
   </p>
   <p>
     <strong>4) How long does it take for octopus to regrow their tentacles?</strong><br>
     <label>
-      <input name="question2" type="radio" value="100">100-130 days
+      <input name="question4" type="radio" value="100">100-130 days
     </label>
     
     <br>
     <label>
-      <input name="question2" type="radio" value="50">50-75 days
+      <input name="question4" type="radio" value="50">50-75 days
     </label>
     
     <br>
     <label>
-      <input name="question2" type="radio" value="300">300 - 360 days
+      <input name="question4" type="radio" value="300">300 - 360 days
     </label>
     
     <br>
     <label>
-      <input name="question2" type="radio" value="never">Never, they don't grow back
+      <input name="question4" type="radio" value="never">Never, they don't grow back
     </label>
     
     <br>
@@ -95,24 +95,38 @@
   <p>
     <strong>5) How many hearts to octopus have?</strong><br>
     <label>
-      <input name="question2" type="radio" value="1">1 duh
+      <input name="question5" type="radio" value="1">1 duh
     </label>
     
     <br>
     <label>
-      <input name="question2" type="radio" value="2">2
+      <input name="question5" type="radio" value="2">2
     </label>
     
     <br>
     <label>
-      <input name="question2" type="radio" value="3">3
+      <input name="question5" type="radio" value="3">3
     </label>
     
     <br>
     <label>
-      <input name="question2" type="radio" value="4">4
+      <input name="question5" type="radio" value="4">4
     </label>
   </p>
+
+  <input type="button" value="Get Score" onclick="getScore(quiz)">
+  <input type="button" value="Clear Answers" onclick="window.location.reload()">
+
+  <p>
+    Score = <strong><input type="text" size="5" name="percentage" disabled></strong>
+  </p>
+
+  <p>
+    Correct Answers:
+    <br>
+    <textarea name="solutions" wrap="virtual" row="12" cols="30" disabled></textarea>
+  </p>
+      
 </form> 
 </fieldset>
 
@@ -135,5 +149,6 @@
       </div>
     </div>
 
+  <script src="js/quiz.js"></script>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <script src="https://kit.fontawesome.com/29091eee21.js" crossorigin="anonymous"></script>
