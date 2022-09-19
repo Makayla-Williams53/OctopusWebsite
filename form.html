@@ -15,7 +15,7 @@
     </label>
     <br>
     <label>
-      <input name="question1" type="radio" value="blueRing">Blue Ringed Octopus
+      <input name="question1" type="radio" value="Blue Ringed Octopus">Blue Ringed Octopus
     </label>
     <br>
     <label>
@@ -72,7 +72,7 @@
   <p>
     <strong>4) How long does it take for octopus to regrow their tentacles?</strong><br>
     <label>
-      <input name="question4" type="radio" value="100">100-130 days
+      <input name="question4" type="radio" value="100-130">100-130 days
     </label>
     
     <br>
@@ -114,21 +114,25 @@
     </label>
   </p>
 
-  <input type="button" value="Get Score" onclick="getScore(quiz)">
-  <input type="button" value="Clear Answers" onclick="window.location.reload()">
+  <input class="getButton" type="button" value="Get Score" onclick="getScore(quiz)">
+  <input class="getButton" type="button" value="Clear Answers" onclick="window.location.reload()">
 
-  <p>
-    Score = <strong><input type="text" size="5" name="percentage" disabled></strong>
+  <p class="score">
+    Score = <strong><input class="percent" type="text" size="5" name="percentage" disabled></strong>
   </p>
 
-  <p>
+  <p class="correct">
     Correct Answers:
     <br>
-    <textarea name="solutions" wrap="virtual" row="12" cols="30" disabled></textarea>
+    <textarea class="rightAnswers" name="solutions" wrap="virtual" row="12" cols="30" disabled></textarea>
   </p>
       
 </form> 
 </fieldset>
+
+<footer>
+  <p>Created by Makayla W. 2022</p>
+</footer>
 
 <div class="header">
       <div class="side-nav">

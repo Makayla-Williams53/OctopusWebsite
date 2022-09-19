@@ -6,7 +6,7 @@ function getScore(quiz)
   var currentChoice, checkedAnswer, correctAnswers;
 
   //array containing correct answers
-  var answers = ['blueRing', 'jellyfish', 'red', '100', '3'];
+  var answers = ['Blue Ringed Octopus', 'jellyfish', 'red', '100-130', '3'];
 
   //loop thorugh all the choices
   for(var i = 0; i < choices; i++)
@@ -34,7 +34,7 @@ function getScore(quiz)
   correctAnswers = '';
   for(i = 0; i < answers.length; i++)
   {
-    correctAnswers += i + 1 + "." + answers[i] + "\n";
+    correctAnswers += i + 1 + ". " + answers[i] + "\n";
   }//end for loop
 
   quiz.solutions.value = correctAnswers;
