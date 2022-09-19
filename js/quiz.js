@@ -30,5 +30,12 @@ function getScore(quiz)
   score = (score / answers.length) * 100;
   quiz.percentage.value = score + '%';
 
-  //
-}
+  //output the correct answers
+  correctAnswers = '';
+  for(i = 0; i < answers.length; i++)
+  {
+    correctAnswers += i + 1 + "." + answers[i] + "\n";
+  }//end for loop
+
+  quiz.solutions.value = correctAnswers;
+}//end getScore
