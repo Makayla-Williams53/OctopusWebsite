@@ -291,25 +291,21 @@ dd
   align-items: center;
 }
 
-.form
+fieldset
 {
-  background-color: #B9CDDA
+  background-color: #B9CDDA;
 }
 
-stong
+strong
 {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  text-align: center;
-  margin-left:300px;
-  padding-top: 50px;
 }
 
 label
 {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  margin-left:325px;
   line-height: 2;
-  padding-bottom: 50px;
+  padding-left: 30px;
 }
